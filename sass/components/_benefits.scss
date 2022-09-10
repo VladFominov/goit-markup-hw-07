@@ -1,0 +1,55 @@
+.visually-hidden {     
+    position: absolute;     
+    white-space: nowrap;     
+    width: 1px;     
+    height: 1px;     
+    overflow: hidden;     
+    border: 0;     
+    padding: 0;     
+    clip: rect(0 0 0 0);     
+    clip-path: inset(50%);     
+    margin: -1px;
+} 
+
+.benefits {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
+.benefits_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.benefits__name {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.benefits__desc {
+    color: var(--subtitle-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* початок стилювання іконок */
+.benefits__icons {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+/* кінець стилювання іконок   */

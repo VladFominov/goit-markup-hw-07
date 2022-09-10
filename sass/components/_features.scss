@@ -1,0 +1,49 @@
+.features {
+    padding-bottom: 94px;
+}
+.features__list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;  
+}
+
+
+.features__title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.features__img {
+    width: 370px;
+}
+
+/* заголовок до картинки */
+.features__desc {
+    position: relative;
+    display: block;
+    
+}
+
+.features__text {
+    position: absolute;
+    bottom: 0;
+    Width: 370px;
+    Height: 70px;
+    padding-bottom: 27px;
+    padding-top: 27px;
+    background-color: rgba(47, 48, 58, 0.8);;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
